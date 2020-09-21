@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 9</title>
+</head>
+<body bgcolor="#ffda75">
+    <h1>Reservation Request</h1>
+    <fieldset>
+        <legend><h1>General Information</h1></legend>
+        <label for="arrival date">Arrival Date</label>
+        <input type="date"required>
+        <br><br>
+        <label for="nights">Nights</label>
+        <input type="number"required>
+        <br><br>
+        <label for="adult">Adults</label>
+        <select name="adult" id="adult">
+            <option value="1">1</option>
+            <option value="1">2</option>
+            <option value="1">3</option>
+            <option value="1">4</option>
+            <option value="1">5</option>
+        </select>
+        <br><br>
+        <label for="child">Children</label>
+        <select name="child" id="child">
+            <option value="1">1</option>
+            <option value="1">2</option>
+            <option value="1">3</option>
+            <option value="1">4</option>
+            <option value="1">5</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend><h1>Preferences</h1></legend>
+        <label for="room">Room Type:</label>
+        <input type="radio"required name="room"id="room">
+
+        <label for="room">Standard</label>
+        <input type="radio"name="room"id="room">
+
+        <label for="room">Business</label>
+        <input type="radio"name="room"id="room">
+
+        <label for="room">Site</label>
+        <br><br>
+        <label for="bed">Bed Type:</label>
+        <input type="radio"required name="bed"id="bed">
+
+        <label for="bed">Single</label>
+        <input type="radio"name="bed"id="bed">
+
+        <label for="room">Double</label>
+        <br><br>
+        <input type="checkbox"name="smoking"id="smoking">
+        <label for="smoking">Smoking</label>
+        <br><br>
+        <label for="food">Food List</label>
+        <input list="food">
+        <datalist id="food">
+            <select name="food" id="food">
+            <option value="Vegetarian">
+            <option value="Non-Vegetarian">
+            <option value="Both">
+            </select>
+        </datalist>
+    </fieldset>
+    <fieldset>
+        <legend><h1>Contact Information</h1></legend>
+        <label for="name">Name</label>
+        <input type="text"name="name"id="name"pattern="[A[a]-Z[z]]">
+        <br><br>
+        <label for="e-mail">E-Mail</label>
+        <input type="email"name="e-mail"id="e-mail"placeholder="xyz@gmail.com">
+        <br><br>
+        <label for="phone">Phone No.</label>
+        <input type="tel"name="phone"id="phone" placeholder="+91">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password"name="password"id="password">
+        </fieldset>
+        <fieldset>
+        <legend><h1>Distance Information</h1></legend>
+        <label for="metre">Fuel Metre</label>
+        <meter 
+        name="metre"
+        id="metre"
+        min="0"
+        max="100"
+        value="70"
+        low="30"
+        high="60"
+        optimum="80">
+        </meter>
+        <br><br>
+        <label for="prog">Progress Bar</label>
+        <progress
+        id="prog"
+        name="prog"
+        max="100"
+        value="70"></progress>
+        <br><br>
+        <label for="place">Write about the palce of visit:</label>
+        <br>
+        <textarea name="place" id="place" cols="30" rows="8"placeholder="Enter your paragraph here:"></textarea>
+        </fieldset>
+</body>
+</html>
