@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    background: red;
+    font-family: 'Lobster',cursive;
+    color:yellow;
+}
+a{
+    text-decoration-line: none;
+}
+h2{
+    text-decoration-line: underline;
+    color: mediumblue;
+}
+.iron{
+    color: #000000;
+    text-align: center;
+    background:#4f84ff;
+}
+.Captain{
+    text-align: right;
+    text-decoration-line: overline;
+    color:rgb(248, 86, 107);
+}
+p{
+    letter-spacing: 3px;
+}
+div#captivity{
+    word-spacing: 20px;
+}
+div#sm{
+text-decoration-line: line-through;
+}
