@@ -1,0 +1,61 @@
+
+body{
+    background-color: lightcoral;
+}
+
+nav{
+    border-style: groove;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+span{
+    font-weight: bolder;
+}
+
+img{
+    border-style: groove;
+    border-color: white;
+}
+
+.info{
+    display: table;
+    clear: both;
+    width: 100%;
+    border-style: groove;
+    background-color: white;
+    padding: 10px;
+}
+
+.image{
+    width: 200px;
+    float: left;
+}
+
+.infotext{
+    width: 200px;
+    float: left;
+}
+.about{
+    border-style: groove;
+    background-color: white;
+    padding: 15px;
+}
+.myprojects{
+    border-style: groove;
+    background-color: white;
+    padding: 15px;
+}
+div.Languages{
+    border-style: groove;
+    background-color: white;
+    padding: 15px;
+}
+h2{
+    text-decoration-line: underline;
+}
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+}
