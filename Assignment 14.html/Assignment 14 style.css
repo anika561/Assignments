@@ -1,0 +1,35 @@
+body{
+    background-color:#25CCF7;
+    border-style: outset;
+    border-width: 15px;
+    border-color: #0A3D62;
+}
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  border-style: dashed;
+  border-color: maroon;
+  border-width: 7px;
+}
+p{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    font-family:  'Sansita Swashed', cursive;
+    background-color: indianred;
+}
+h4{
+    text-align: center;
+    text-decoration-line: underline;
+    
+}
+span{
+    font-weight: bolder;
+    text-decoration-line: underline;
+}
