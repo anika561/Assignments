@@ -8,21 +8,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form>
-        <img src="cblogo.png" alt="">
+    <form action="Form Sumbission.html">
+    <img src="cblogo.png" alt="">
     <h1>Admission Form</h1>
     <br>
     <h2>Student's Name</h2>
     <div>
-    <input type="text" placeholder="Enter Name Here">
+    <input type="text" placeholder="Enter Name Here" required>
     </div>
     <h2>College Name</h2>
     <div>
-    <input type="text" placeholder="Enter College Name Here">
+    <input type="text" placeholder="Enter College Name Here"required>
     </div>
     <h2>Student's Mobile Number</h2>
     <div>
-    <input type="number" placeholder="Enter Mobile Number Here">
+    <input type="number" placeholder="Enter Mobile Number Here"required>
     </div>
     <h2>Courses</h2>
     <div id="course">
@@ -35,19 +35,18 @@
     </div>
     <h2>E-Mail</h2>
     <div>
-    <input type="email"placeholder="abc@gmail.com">
+    <input type="email"placeholder="abc@gmail.com"required>
     </div>
     <h2>Gender</h2>
     <div id="gender">
-    <label for="Gender">Male</label>
-    <input type="radio" name="Gender" id="Gender">
-    <label for="Gender">Female</label>
-    <input type="radio" name="Gender" id="Gender">
-    <label for="Gender">Others</label>
-    <input type="radio" name="Gender" id="Gender">
-    </div>
-   <div id="button"> <input type="submit"> </input></div>
-
-    </form>
+    <label for="Gender">Gender</label>
+    <select name="Gender" id="Gender">
+    <option value="Male">Male</option>
+    <option value="Male">Female</option>
+    <option value="Male">Others</option>
+    </select>
+    </div><br><br>
+   <div id="button"><input type="submit"> </input></div>
+</form>
 </body>
 </html>

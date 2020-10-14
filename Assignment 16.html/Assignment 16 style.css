@@ -1,0 +1,52 @@
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: ridge;
+  border-width: 10px;
+  border-color: #2C3335;
+}
+body{
+    background-image: url(background.png);
+}
+h2{
+    text-align: center;
+    text-decoration-line: underline underline;
+    font-family: 'Lemonada', cursive;
+}
+h3{
+    text-decoration-line: overline underline;
+    font-family: 'Lemonada', cursive;
+}
+#aboutthomas{
+    border-style: solid;
+    border-color: crimson;
+    background-color: #FFFDD0;
+    padding: 0.5cm;
+}
+#thomasandhisfriends{
+    border-style: solid;
+    border-color: crimson;
+    background-color: #FFFDD0;
+    padding: 0.5cm;
+}
+form{
+    border-style: solid;
+    border-color: crimson;
+    background-color: #FFFDD0;
+    text-align: center;
+}
+span{
+    font-weight: bolder;
+    text-decoration-line: overline underline;
+}
+div.form-field input:invalid{
+background-color: lightcoral;
+border-style: solid;
+border-color: red;
+}
+div.form-field input:valid{
+    background-color: lightgreen;
+    border-style: solid;
+    border-color: darkgreen;
+}

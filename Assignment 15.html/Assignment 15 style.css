@@ -1,34 +1,26 @@
 body{
-  background-color: #99AAAB;
+  background-color: gray;
 }
 img{
   display: block;
-  margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  margin-left: auto;
 }
 h1{
-  text-decoration-line: underline;
   text-align: center;
   font-family: 'Grenze Gotisch', cursive;
+  text-decoration-line: underline;
 }
 h2{
   text-align: center;
-  text-decoration-line: overline underline;
-}
-input{
-  text-align: center;
-  width: 20%;
-  border-radius: 10px;
-  background-color: lightcoral;
+  font-family: 'Grenze Gotisch', cursive;
+  text-decoration-line: underline;
 }
 div{
   text-align: center;
-  font-family: 'Grenze Gotisch',cursive;
-  font-size: 25px;
 }
-#button{
+input{
+  border-radius: 5px;
+  background-color: lightcoral;
   text-align: center;
-  border-radius: 1px;
-  color: lavender;
 }
