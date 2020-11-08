@@ -1,0 +1,64 @@
+body{
+    background-image: url(background.webp);
+}
+table {
+    border-spacing: 5px;
+}
+table:hover{
+    transition: ease-in;
+    transition-duration: 5000ms;
+    transform: skew(360deg);
+    margin-left: 500px;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    text-decoration-line: overline underline;
+}
+div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    border-style: outset;
+    border-radius: 10px;
+    border-color: darkblue;
+    border-width: 5px;
+    box-shadow: 5px 5px lawngreen;
+    background-color: white;
+}
+img:hover{
+    transition-property: width height ;
+    transition-timing-function: ease;
+    transition-duration: 5000ms;
+    left: 10px;
+    position: relative;
+    transform: rotateY(360deg);
+}
+div.img1 img{
+    border-style: none;
+    border-radius: 10px;
+    border-color: none;
+    border-width: none;
+    box-shadow: none;
+    margin-left: 490px;
+}
+div.img1 img:hover{
+    transition-timing-function: ease;
+    transition-duration: 1000ms;
+    position: relative;
+    transition-duration: 2000ms;
+    transform: rotateX(360deg);
+
+}
+h3:hover{
+    font-size: 30px;
+    text-decoration-line: underline;
+    color: antiquewhite;
+}
+p:hover{
+    background-color: whitesmoke;
+    font-size: 20px;
+    
+}
