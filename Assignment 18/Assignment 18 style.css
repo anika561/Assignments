@@ -1,8 +1,10 @@
 body{
-    background-image: url(background.webp);
+    background-color: darkred;
 }
 table {
     border-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 table:hover{
     transition: ease-in;
@@ -27,6 +29,9 @@ img{
     border-width: 5px;
     box-shadow: 5px 5px lawngreen;
     background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 img:hover{
     transition-property: width height ;
@@ -42,7 +47,8 @@ div.img1 img{
     border-color: none;
     border-width: none;
     box-shadow: none;
-    margin-left: 490px;
+    margin-left: 400px;
+    border-radius: 0px;
 }
 div.img1 img:hover{
     transition-timing-function: ease;
@@ -52,13 +58,19 @@ div.img1 img:hover{
     transform: rotateX(360deg);
 
 }
+h3{
+    text-align: center;
+
+}
 h3:hover{
     font-size: 30px;
     text-decoration-line: underline;
     color: antiquewhite;
 }
-p:hover{
-    background-color: whitesmoke;
+p{
+    text-align-last: center;
+    color: white;
     font-size: 20px;
-    
+    margin-left: 15px;
+    margin-right: 15px;
 }
