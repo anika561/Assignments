@@ -60,12 +60,14 @@ div.img1 img:hover{
 }
 h3{
     text-align: center;
+    color: linen;
 
 }
 h3:hover{
     font-size: 30px;
     text-decoration-line: underline;
     color: antiquewhite;
+    font-family: 'Syne Tactile';
 }
 p{
     text-align-last: center;
@@ -73,4 +75,10 @@ p{
     font-size: 20px;
     margin-left: 15px;
     margin-right: 15px;
+    font-family: 'Grandstander', cursive;
+}
+p:hover{
+    transition: ease-in-out;
+    transition-duration: 2000ms;
+    transform: scale(2);
 }
