@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+h1{
+    color: cornsilk;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+h2{
+    color: cornsilk;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    text-decoration-line: underline;
+}
+h3{
+    color: aliceblue;
+    font-family: 'Gstatic';
+    font-size: 30px;
+}
+p{
+    color: #F6D8D8;
+    font-size: 30px;
+}
+img
+{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    border-radius: 5px;
+    border: 5px solid #FF362E;
+}
+.img1:hover{
+    transition-timing-function: ease-in;
+    transition-duration: 1000ms;
+    transform: scale(1.3);
+}
+img:hover body{
+    filter: blur(8px);
+    opacity: 0.5;
+}
+.img2:hover{
+    transition-timing-function: ease-in;
+    transition-duration: 5000ms;
+    transform: rotateX(360deg);
+}
+.img3:hover{
+    transition-timing-function: ease-in;
+    transition-duration: 3000ms;
+    box-shadow: 20px 20px 10px white;
+    transform: rotate(-360deg);
+}
+.img4:hover{
+    transition-timing-function: ease-in;
+    transition-duration: 3000ms;
+    box-shadow: 20px 20px 10px rgb(255, 144, 144);
+    transform: rotateY(-360deg);
+}
+@media only screen and (max-width: 300px{
+    img{
+        display: block;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        align-content: center;
+    }
+    .img1 img:hover{
+        transition-timing-function: ease-in;
+        transition-duration: 1000ms;
+        transform: scale(0.1);
+    }
+}
