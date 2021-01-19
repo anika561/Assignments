@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(orange, blue, yellow);
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: orange;
+    font-family: 'Lora', serif;
+}
+h1:hover{
+    transition: all;
+    transition-duration: 2000ms;
+    font-size: 45px;
+    box-shadow: darkorange 10px 10px 8px ;
+}
+.css h1:hover{
+    transition: all;
+    transition-duration: 2000ms;
+    font-size: 45px;
+    box-shadow: darkblue 10px 10px 8px ;
+}
+.js h1:hover{
+    transition: all;
+    transition-duration: 2000ms;
+    font-size: 45px;
+    box-shadow: rgb(175, 175, 6) 10px 10px 8px ;
+}
+.css h1{
+    background-color: blue;
+    font-family: 'Lora', serif;
+}
+.js h1{
+    background-color: rgb(212, 212, 39);
+    font-family: 'Lora', serif;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    font-size: large;
+    font-family: cursive;
+}
